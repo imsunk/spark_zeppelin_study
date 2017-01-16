@@ -1,0 +1,5 @@
+name := "stream"
+version := "1.0"
+scalaVersion := "2.11.7"
+libraryDependencies += "org.apache.spark" % "spark-core_2.10" % "1.6.3"
+libraryDependencies += "org.apache.spark" % "spark-streaming_2.10" % "1.3.0"
